@@ -359,7 +359,7 @@ section h2::after {
 /* Fade-in Animation for Skill Description */
 .tab-content.fade {
   opacity: 0;
-  animation: fadeInContent 0.5s forwards;
+  animation: fadeInContent 1s forwards;
 }
 
 /* Footer */
