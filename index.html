@@ -40,11 +40,15 @@
   <section id="hero">
     <div class="hero-content">
       <div class="profile-container">
-        <img class="profile-pic" src="profile.jpg" alt="Profile Picture" />
-        <h1>Your Name</h1>
+        <img class="profile-pic" src="profile.jpeg" alt="Profile Picture" />
+        <h1>Isabella Magallanez</h1>
       </div>
-      <p>Professional Title or Tagline</p>
-      <a href="#contact" class="btn">Contact Me</a>
+      <!-- Tagline will be typed out -->
+      <p id="tagline">Full Stack Software Engineer | <i>Turning coffee into code since 2021</i></p>
+      <!-- Blob Animated Button Container -->
+      <div>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
     </div>
   </section>
 
@@ -52,9 +56,48 @@
   <section id="about">
     <h2>About Me</h2>
     <p>
-      A brief introduction about yourself. Explain your professional background, interests, and what drives you.
-      Keep it engaging and concise.
+        I’m a full-stack software engineer with a passion for building intuitive, performant, and scalable web applications. My experience ranges from crafting responsive UIs to developing robust backend services and APIs, as well as cloud development, testing, and DevSecOps. I thrive on solving challenging problems, collaborating closely with teams, and shipping products that make a real-world impact.
+
+        When I’m not coding, you’ll find me exploring health and wellness, diving into personal development books, or finding new ways to level-up my physical, emotional, spiritual, social health. Driven by curiosity and continuous growth, I’m always looking for my next big adventure in tech.
     </p>
+    <!-- On Rotation Dropdown -->
+    <div class="rotation-carousel">
+        <h3 id="rotation-toggle">
+          On Rotation <span class="arrow">&#9660;</span>
+        </h3>
+        <div class="carousel-items">
+          <div class="carousel-item active">
+            <img src="podcast.jpg" alt="Favorite Podcast" />
+            <h4>Favorite Podcast</h4>
+            <p>Listen to my favorite podcast where I explore interesting topics.</p>
+            <a href="https://www.youtube.com/watch?v=iiVC82AqiBE" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                    <path d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z"></path>
+                </svg>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <img src="book.jpg" alt="Favorite Book" />
+            <h4>Favorite Book</h4>
+            <p>A great read that inspires my thinking.</p>
+            <a href="https://www.amazon.com/Letting-David-Hawkins-M-D-Ph-D/dp/1401945015" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                <path d="M 15.183594 3 C 11.820594 3 8.0848281 4.2580938 7.2988281 8.3710938 C 7.2148281 8.8090937 7.5215469 9.0336562 7.8105469 9.0976562 L 11.224609 9.4453125 C 11.545609 9.4283125 11.801281 9.1304531 11.863281 8.8144531 C 12.157281 7.3974531 13.357125 6.6972656 14.703125 6.6972656 C 15.430125 6.6972656 16.253594 6.9692812 16.683594 7.6132812 C 17.180594 8.3322813 17.097656 9.3095781 17.097656 10.142578 L 17.097656 10.615234 C 15.048656 10.843234 12.376937 10.982406 10.460938 11.816406 C 8.2469375 12.763406 6.6933594 14.695156 6.6933594 17.535156 C 6.6933594 21.169156 9.0171875 23.001953 11.992188 23.001953 C 14.505187 23.001953 15.860781 22.399359 17.800781 20.443359 C 18.441781 21.362359 18.66975 21.81425 19.84375 22.78125 C 20.10775 22.92125 20.440828 22.8955 20.673828 22.6875 L 20.673828 22.71875 C 21.378828 22.09675 22.664766 20.981859 23.384766 20.380859 C 23.671766 20.146859 23.609766 19.781891 23.384766 19.462891 C 22.738766 18.579891 22.076172 17.847031 22.076172 16.207031 L 22.076172 10.771484 C 22.076172 8.4624844 22.232672 6.3263281 20.513672 4.7363281 C 19.156672 3.4483281 16.901594 3 15.183594 3 z M 16.140625 13.425781 C 16.459625 13.404781 16.777656 13.425781 17.097656 13.425781 L 17.097656 14.183594 C 17.098656 15.547594 17.152984 16.668859 16.458984 17.880859 C 15.896984 18.864859 14.993953 19.460938 14.001953 19.460938 C 12.645953 19.460938 11.861328 18.445641 11.861328 16.931641 C 11.861328 14.326641 13.910625 13.570781 16.140625 13.425781 z M 26.080078 22.220703 C 25.171078 22.233703 24.106016 22.424234 23.291016 22.990234 C 23.041016 23.164234 23.077469 23.409953 23.355469 23.376953 C 24.272469 23.267953 26.299063 23.011656 26.664062 23.472656 C 27.028063 23.934656 26.261922 25.832641 25.919922 26.681641 C 25.815922 26.937641 26.041391 27.036797 26.275391 26.841797 C 27.801391 25.577797 28.208484 22.956266 27.896484 22.572266 C 27.741484 22.385266 26.990078 22.207703 26.080078 22.220703 z M 2.1777344 22.701172 C 1.9877344 22.726172 1.9132812 22.973344 2.1132812 23.152344 C 5.5052812 26.184344 9.9770781 28 14.955078 28 C 18.506078 28 22.651094 26.899312 25.496094 24.820312 C 25.966094 24.475313 25.557172 23.943484 25.076172 24.146484 C 21.887172 25.486484 18.401047 26.136719 15.248047 26.136719 C 10.573047 26.136719 6.06525 24.873625 2.40625 22.765625 C 2.32525 22.719625 2.2397344 22.693172 2.1777344 22.701172 z"></path>
+            </svg>
+        </a>
+          </div>
+          <div class="carousel-item">
+            <img src="hobby.png" alt="Favorite Hobby" />
+            <h4>Favorite Hobby</h4>
+            <p>Check out my hobby that fuels my creativity.</p>
+            <a href="https://soundcloud.com/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                    <path d="M 30 11 C 26.398438 11 23 12.789063 21 15.6875 L 21 36 L 42.5 36 C 46.601563 36 50 32.601563 50 28.5 C 50 24.398438 46.601563 21 42.5 21 C 42 21 41.5 21.085938 41 21.1875 C 40.5 15.488281 35.800781 11 30 11 Z M 17 16 C 16.300781 16 15.601563 16.085938 15 16.1875 L 15 36 L 17 36 Z M 18 16 L 18 36 L 20 36 L 20 16.5 C 19.398438 16.300781 18.699219 16.101563 18 16 Z M 14 16.5 C 13.300781 16.800781 12.601563 17.101563 12 17.5 L 12 36 L 14 36 Z M 11 18.3125 C 10.199219 19.011719 9.5 19.90625 9 20.90625 L 9 36 L 11 36 Z M 6.5 22 C 6.324219 22.011719 6.148438 22.042969 6 22.09375 L 6 35.90625 C 6.300781 36.007813 6.699219 36 7 36 L 8 36 L 8 22.09375 C 7.699219 21.992188 7.300781 22 7 22 C 6.851563 22 6.675781 21.988281 6.5 22 Z M 5 22.3125 C 4.300781 22.511719 3.601563 22.8125 3 23.3125 L 3 34.6875 C 3.601563 35.085938 4.300781 35.488281 5 35.6875 Z M 2 24.09375 C 0.800781 25.394531 0 27.101563 0 29 C 0 30.898438 0.800781 32.605469 2 33.90625 Z"></path>
+                </svg>
+            </a>
+          </div>
+        </div>
+      </div>
   </section>
 
   <!-- Experience Section -->
@@ -84,26 +127,41 @@
     </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- Skills Section with Skill Meters -->
   <section id="skills">
     <h2>Skills</h2>
     <div class="skills-container">
-      <button class="skill" data-description="Developed a responsive website using HTML, CSS, and JavaScript for an e-commerce platform.">
-        HTML
-      </button>
-      <button class="skill" data-description="Built interactive user interfaces with CSS animations and transitions.">
-        CSS
-      </button>
-      <button class="skill" data-description="Implemented dynamic features using vanilla JavaScript for enhanced interactivity.">
-        JavaScript
-      </button>
-      <button class="skill" data-description="Created single-page applications using React.js to deliver seamless user experiences.">
-        React
-      </button>
-      <!-- Add more skills as needed -->
+      <div class="skill-item" data-description="Developed responsive websites with semantic HTML structure." data-level="Master">
+        <span>HTML</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:90%;"></div>
+        </div>
+        <div class="skill-label">Master</div>
+      </div>
+      <div class="skill-item" data-description="Built interactive and animated UIs with advanced CSS techniques." data-level="Advanced">
+        <span>CSS</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:80%;"></div>
+        </div>
+        <div class="skill-label">Advanced</div>
+      </div>
+      <div class="skill-item" data-description="Implemented dynamic features using vanilla JavaScript." data-level="Intermediate">
+        <span>JavaScript</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:60%;"></div>
+        </div>
+        <div class="skill-label">Intermediate</div>
+      </div>
+      <div class="skill-item" data-description="Created interactive single-page applications using React.js." data-level="Beginner">
+        <span>React</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="width:40%;"></div>
+        </div>
+        <div class="skill-label">Beginner</div>
+      </div>
     </div>
-    <div id="tabContent" class="tab-content">
-      <p>Select a skill to see more details.</p>
+    <div id="skill-description" class="skill-description">
+      <p>Click on a skill to see details.</p>
     </div>
   </section>
 
@@ -115,25 +173,74 @@
 
   <!-- JavaScript for Tab Functionality -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const skillButtons = document.querySelectorAll('.skill');
-      const tabContent = document.getElementById('tabContent');
+    typeWriter();
+    // Typewriter Effect for Tagline with Blinking Cursor
+    function typeWriter() {
+        const taglineEl = document.getElementById("tagline");
+        const fullText = taglineEl.textContent;
+        taglineEl.textContent = "";
+        let i = 0;
+        function type() {
+          if (i < fullText.length) {
+            taglineEl.textContent += fullText.charAt(i);
+            i++;
+            setTimeout(type, 100); // adjust typing speed here
+          }
+        }
+        type();
+      }
+    // Interactive Skills Section with Descriptions
+    document.addEventListener("DOMContentLoaded", function () {
+        const skillItems = document.querySelectorAll(".skill-item");
+        const skillDesc = document.getElementById("skill-description");
 
-      skillButtons.forEach(skill => {
-        skill.addEventListener('click', function() {
-          // Remove active class from all buttons
-          skillButtons.forEach(btn => btn.classList.remove('active'));
-          // Add active class to clicked button
-          this.classList.add('active');
-          // Update tab content with the description from the clicked skill
-          tabContent.innerHTML = '<p>' + this.getAttribute('data-description') + '</p>';
-          // Trigger fade-in effect
-          tabContent.classList.remove('fade');
-          void tabContent.offsetWidth; // Trigger reflow for restarting animation
-          tabContent.classList.add('fade');
+        skillItems.forEach((item) => {
+          item.addEventListener("click", function () {
+            // Remove active state from all skill items
+            skillItems.forEach((itm) => itm.classList.remove("active"));
+            // Set active class on clicked item
+            this.classList.add("active");
+            // Update skill description
+            const desc = this.getAttribute("data-description");
+            skillDesc.innerHTML = `<p>${desc}</p>`;
+            // Simple fade-in effect
+            skillDesc.style.opacity = '0';
+            setTimeout(() => (skillDesc.style.opacity = '1'), 100);
+          });
+        });
+    });
+
+    // Toggle Dropdown for "On Rotation" Carousel
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.getElementById("rotation-toggle");
+        const carousel = document.querySelector(".carousel-items");
+        toggle.addEventListener("click", function () {
+          carousel.classList.toggle("open");
+          // Toggle arrow direction
+          const arrow = toggle.querySelector(".arrow");
+          if (carousel.classList.contains("open")) {
+            arrow.innerHTML = "&#9650;"; // Up arrow
+          } else {
+            arrow.innerHTML = "&#9660;"; // Down arrow
+          }
         });
       });
-    });
+
+
+    // Carousel Auto-Rotation for "On Rotation" Section
+    document.addEventListener("DOMContentLoaded", function () {
+        const items = document.querySelectorAll(".carousel-item");
+        let currentIndex = 0;
+        function showNextItem() {
+          // Only auto-rotate if the carousel is open
+          if (document.querySelector(".carousel-items").classList.contains("open")) {
+            items[currentIndex].classList.remove("active");
+            currentIndex = (currentIndex + 1) % items.length;
+            items[currentIndex].classList.add("active");
+          }
+        }
+        setInterval(showNextItem, 5000); // Rotate every 5 seconds
+      });
   </script>
 </body>
 </html>
