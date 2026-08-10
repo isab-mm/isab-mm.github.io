@@ -223,6 +223,27 @@ section h2::after {
   transform: translateY(-5px);
 }
 
+/* Certifications Items */
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cert-item {
+  background: #fff;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.cert-item:hover {
+  transform: translateY(-5px);
+}
+
 /* Rotation Carousel Dropdown */
 .rotation-carousel {
   margin-top: 40px;
