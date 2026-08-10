@@ -60,6 +60,16 @@ header nav {
   margin: 0 5px;
 }
 
+.social-links .last-updated {
+  margin-left: 10px;
+}
+
+.social-links .last-updated time {
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+}
+
 .social-icon {
   width: 24px;
   height: 24px;
@@ -450,6 +460,10 @@ footer p a {
     flex-direction: column;
   }
   .nav-links {
+    margin-top: 10px;
+  }
+  .social-links .last-updated {
+    margin-left: 0;
     margin-top: 10px;
   }
   .hero-content h1 {
